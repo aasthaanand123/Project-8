@@ -71,7 +71,7 @@ button {
 .logo {
   align-self: center;
 }
-ul {
+footer {
   margin-top: 15vh;
   margin-bottom: 2vh;
   display: flex;
@@ -79,7 +79,6 @@ ul {
   height: 5vh;
   justify-content: center;
   align-items: center;
-  list-style-type: none;
 }
 i {
   color: #4b7ef1;
