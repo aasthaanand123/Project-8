@@ -25,5 +25,8 @@ submit.addEventListener("click", function (e) {
       input.value = "";
       input.placeholder = "Your email address";
     }
+    if (input.value.includes("@") && input.value.includes(".")) {
+      input.value = "";
+    }
   }
 });
